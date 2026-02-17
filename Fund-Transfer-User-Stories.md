@@ -8,7 +8,9 @@ The acceptance criteria are defined using both:
 The user stories are also validated using the INVEST principle.
 ________________________________________
 **2. User Story 1 – Add Beneficiary**
+
 User Story
+
 As a bank customer, I want to add a beneficiary so that I can transfer money to that account.
 ________________________________________
 **Acceptance Criteria – Simple Method**
@@ -112,6 +114,7 @@ And amount
 And date and time
 ________________________________________
 **5. INVEST Analysis**
+
 User Story: Transfer Money
 ________________________________________
 Independent
