@@ -12,6 +12,7 @@ User Story
 As a bank customer, I want to add a beneficiary so that I can transfer money to that account.
 ________________________________________
 Acceptance Criteria – Simple Method
+
 •	Customer should be able to enter beneficiary name
 •	Customer should be able to enter account number
 •	Customer should be able to enter IFSC code
@@ -20,6 +21,7 @@ Acceptance Criteria – Simple Method
 •	System should display confirmation message
 ________________________________________
 Acceptance Criteria – BDD Method
+
 Scenario: Add beneficiary successfully
 
 Given the customer is logged into the banking app  
@@ -30,9 +32,11 @@ And show success message
 ________________________________________
 **3. User Story 2 – Transfer Money**
 User Story
+
 As a bank customer, I want to transfer money to a beneficiary so that I can send funds easily.
 ________________________________________
 Acceptance Criteria – Simple Method
+
 •	Customer should be able to select beneficiary
 •	Customer should be able to enter transfer amount
 •	System should validate account balance
@@ -41,6 +45,7 @@ Acceptance Criteria – Simple Method
 •	System should update account balance
 ________________________________________
 Acceptance Criteria – BDD Method
+
 Scenario: Successful money transfer
 
 Given the customer is logged in  
@@ -54,15 +59,18 @@ And update account balance
 ________________________________________
 **4. User Story 3 – View Transaction Confirmation**
 User Story
+
 As a bank customer, I want to view transaction confirmation so that I can verify successful transfer.
 ________________________________________
 Acceptance Criteria – Simple Method
+
 •	System should display transaction ID
 •	System should display beneficiary name
 •	System should display transfer amount
 •	System should display date and time
 ________________________________________
 Acceptance Criteria – BDD Method
+
 Scenario: View transaction confirmation
 
 Given the transaction is successful  
@@ -97,6 +105,7 @@ The story can be tested with scenarios such as:
 •	Invalid beneficiary
 ________________________________________
 **6. Conclusion**
+
 This document defines the user stories and acceptance criteria for the Fund Transfer feature in a banking application.
 Both Simple and BDD methods are used to ensure clarity and testability of requirements. The INVEST principle ensures that the user stories are well-structured, valuable, and ready for development.
 This documentation helps ensure effective communication between stakeholders, Business Analysts, developers, and testers, enabling successful delivery of the feature in an Agile environment.
